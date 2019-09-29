@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>InnerCore.Api.SonosHttp</id>
+    <version>1.0</version>
+    <title>InnerCore.Api.SonosHttp</title>
+    <authors>Philippe Wechsler</authors>
+    <owners>Philippe Wechsler</owners>
+    <licenseUrl>https://github.com/MadMonkey87/InnerCore.Api.SonosHttp/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/MadMonkey87/InnerCore.Api.SonosHttp</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A simple library to communicate with Sonos Http Api</description>
+    <releaseNotes>initial release</releaseNotes>
+    <copyright>Copyright 2019 Philippe Wechsler</copyright>
+    <tags>sonos</tags>
+	<repository type="GitHub" url="https://github.com/MadMonkey87/InnerCore.Api.SonosHttp" />
+	<dependencies>
+		<group targetFramework="netstandard2.0">
+			<dependency id="Newtonsoft.Json" version="12.0.1" />
+		</group>
+	</dependencies>
+  </metadata>
+  <files>
+	<file src="bin\Release\**\InnerCore.Api.SonosHttp.dll" target="lib" />
+  </files>
+</package>

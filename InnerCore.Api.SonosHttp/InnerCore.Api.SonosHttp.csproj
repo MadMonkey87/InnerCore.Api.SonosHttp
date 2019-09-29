@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Copyright>Copyright © 2019 Philippe Wechsler</Copyright>
+    <PackageId>InnerCore.Api.SonosHttp</PackageId>
+    <Authors>Philippe Wechsler</Authors>
+    <Company>InnerCore</Company>
+    <Description>A simple library to communicate with Sonos Http Api, see https://github.com/jishi/node-sonos-http-api</Description>
+    <PackageProjectUrl>https://github.com/MadMonkey87/InnerCore.Api.SonosHttp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MadMonkey87/InnerCore.Api.SonosHttp</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageTags>sonos</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+</Project>
