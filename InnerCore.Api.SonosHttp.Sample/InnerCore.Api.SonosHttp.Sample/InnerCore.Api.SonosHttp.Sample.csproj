@@ -5,6 +5,14 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  
   <ItemGroup>
     <ProjectReference Include="..\..\InnerCore.Api.SonosHttp\InnerCore.Api.SonosHttp.csproj" />
   </ItemGroup>

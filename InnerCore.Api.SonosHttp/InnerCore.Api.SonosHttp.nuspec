@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>InnerCore.Api.SonosHttp</id>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <title>InnerCore.Api.SonosHttp</title>
     <authors>Philippe Wechsler</authors>
     <owners>Philippe Wechsler</owners>
